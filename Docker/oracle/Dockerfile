@@ -1,4 +1,4 @@
-FROM docker.io/tpcorg/hammerdb:base
+FROM docker.io/tpcorg/hammerdb:v5.0-base
 
 # Install and configure Oracle client libraries
 RUN wget https://download.oracle.com/otn_software/linux/instantclient/2118000/instantclient-basic-linux.x64-21.18.0.0.0dbru.zip  && \

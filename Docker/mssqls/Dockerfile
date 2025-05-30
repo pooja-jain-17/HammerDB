@@ -1,5 +1,4 @@
-FROM docker.io/tpcorg/hammerdb:base
-#From docker.io/tpcorg/hammerdb:base-v5.0
+FROM docker.io/tpcorg/hammerdb:v5.0-base
 
 RUN apt-get update && \
      DEBIAN_FRONTEND=noninteractive apt-get install -y curl gcc make lsb-release && \
